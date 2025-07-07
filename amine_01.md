@@ -1,0 +1,11 @@
+Observation: | Function Name | Input Parameters | Output Parameters | Purpose |
+| --- | --- | --- | --- |
+| userExists | String username | boolean | Checks if a user exists in the database |
+| readFile | String filename | String | Reads the contents of a file |
+| doStuff | int a, int b | int | Performs an unclear operation with two integers |
+| printUpperCase | String s |  | Prints a string in uppercase |
+| encryptPassword | String password | String | Intended to encrypt a password, but does not actually do so |
+
+| Code | Explanation | Proposed Modification |
+| --- | --- | --- |
+| `private static String DB_PASS = 
